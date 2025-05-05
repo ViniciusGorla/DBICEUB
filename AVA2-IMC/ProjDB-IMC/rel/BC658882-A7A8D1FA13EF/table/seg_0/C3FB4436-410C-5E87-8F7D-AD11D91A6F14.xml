@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3FB4436-410C-5E87-8F7D-AD11D91A6F14" name="ImcHistorico">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>84DF1793-28B5-3CCF-9DD8-E2583E2741CD</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedidaimc" id="4C25E456-C6A7-29E3-1C07-01A11C80B2D9">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>A5490AA2-99DF-3ACE-1BC8-973EB038DFDF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="491BFE01-A194-C6C9-DEE7-8CE096DD7353">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>603FAE7E-F387-EC38-CE73-EAF7EC503AAC</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoPessoa" id="0EB1AFE6-88BB-10E2-A68F-929D0143225E">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>0FC1221E-B5D5-9184-1E97-2D04A010447E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaPessoa" id="CE264FBB-02E6-E74C-F5F0-417F3317A9F8">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>F4DD30F8-B8E3-7318-6EE9-3248A15007E0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrimcPessoa" id="5BC64341-8BD7-B366-2C2E-EA45C5FD7C01">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>751B997E-7F3E-5E0E-EE4E-EB07B2BC3C18</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseimcPessoa" id="3A9EC1B8-87B8-3788-7D5B-08A0EF46BAEF">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>64CCDCA0-9B8B-9EF9-23FC-750E05DDADDF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pessoa_nomePessoa" id="70F4B447-C408-BB23-D6EB-939CCCDDA4A3">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>02EAC5EB-50C4-2A59-2099-C16614A9B41F</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa1" id="1383FD95-08DA-7FE1-08F2-0BDF1C164E29">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:48:25 UTC</createdTime>
+<generatorID>26D28E88-3799-2208-AB78-65BF5CC326F3</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A88A98D-86B7-AB8B-1AAF-7F5D5AC1B5D2" referredColumn="BFEC78A6-0D8F-9FB1-7FA0-FB958AFCF8F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="128F25CA-1235-0ACE-93A3-DFF52A488AF7" name="ImcHistorico_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>F03971E4-9623-0331-1771-E611C299D236</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C25E456-C6A7-29E3-1C07-01A11C80B2D9"/>
+<colUsage columnID="491BFE01-A194-C6C9-DEE7-8CE096DD7353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ED5760A-5F22-FDE0-00D3-CF156A95CD27" name="ImcHistorico_Pessoa_FK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>67834691-8CB8-82F8-52A7-4BB13B561EA0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1383FD95-08DA-7FE1-08F2-0BDF1C164E29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

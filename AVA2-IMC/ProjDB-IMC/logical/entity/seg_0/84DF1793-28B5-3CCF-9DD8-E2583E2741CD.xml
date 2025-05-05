@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84DF1793-28B5-3CCF-9DD8-E2583E2741CD" name="ImcHistorico">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-08 00:31:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedidaimc" id="A5490AA2-99DF-3ACE-1BC8-973EB038DFDF">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:32:45 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="603FAE7E-F387-EC38-CE73-EAF7EC503AAC">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:32:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoPessoa" id="0FC1221E-B5D5-9184-1E97-2D04A010447E">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:33:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaPessoa" id="F4DD30F8-B8E3-7318-6EE9-3248A15007E0">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:33:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrimcPessoa" id="751B997E-7F3E-5E0E-EE4E-EB07B2BC3C18">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:33:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseimcPessoa" id="64CCDCA0-9B8B-9EF9-23FC-750E05DDADDF">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:33:49 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa1" id="26D28E88-3799-2208-AB78-65BF5CC326F3">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:48:12 UTC</createdTime>
+<generatorID>67834691-8CB8-82F8-52A7-4BB13B561EA0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36117FA4-99ED-80FE-ED8F-C0A9515BC72C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F03971E4-9623-0331-1771-E611C299D236" name="ImcHistorico PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:53:45 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5490AA2-99DF-3ACE-1BC8-973EB038DFDF</attributeRef>
+<attributeRef>603FAE7E-F387-EC38-CE73-EAF7EC503AAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

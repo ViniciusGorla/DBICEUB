@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="094A9BDC-4DA9-B2A8-607F-A4AB92E87B5B" name="Pessoa">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-07 23:44:22 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="36117FA4-99ED-80FE-ED8F-C0A9515BC72C">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:32:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePessoa" id="9702DCB0-6DC9-05A6-E099-AA50FA0B9A69">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-07 23:47:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C32AC18D-325D-815E-AB02-0B50D190DFCE" name="Pessoa PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 22:53:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="BC658882-5DD0-27B9-FD32-A7A8D1FA13EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36117FA4-99ED-80FE-ED8F-C0A9515BC72C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

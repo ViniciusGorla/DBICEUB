@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47430E4A-5914-A04E-81E3-1F57087884E8" name="Pessoa">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>094A9BDC-4DA9-B2A8-607F-A4AB92E87B5B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="BFEC78A6-0D8F-9FB1-7FA0-FB958AFCF8F0">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>36117FA4-99ED-80FE-ED8F-C0A9515BC72C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="2E01661D-C0EF-FA65-C034-1E074E89D5A4">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>9702DCB0-6DC9-05A6-E099-AA50FA0B9A69</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1429780-ABF7-7854-665C-4497EC3DBF04" name="Pessoa_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-04-28 23:46:42 UTC</createdTime>
+<generatorID>C32AC18D-325D-815E-AB02-0B50D190DFCE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFEC78A6-0D8F-9FB1-7FA0-FB958AFCF8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
