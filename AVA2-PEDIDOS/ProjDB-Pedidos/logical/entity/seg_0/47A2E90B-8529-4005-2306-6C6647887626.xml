@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47A2E90B-8529-4005-2306-6C6647887626" name="Pedido">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:09:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="statusDoPedido" id="DADBEEF5-C403-8F3F-94A7-CB0F0BCFA793">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:10:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="8D3A9805-8326-898E-750B-94A2EEF8CAB7">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:12:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificaoDoPedido" id="2D83EE72-8DA6-BB70-E6D6-F91E8E888A89">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:13:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula1" id="8FB5201E-69F1-6D86-E9AD-DC64AF5462D7">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:39:36 UTC</createdTime>
+<generatorID>A6321BD8-C4FD-F94E-2B54-6314A8CF9307</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<referedAttribute>DC773EA0-5361-C590-84AA-0A264602A2F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="58B3F2E7-871A-1CB5-90DE-04EF91003798">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:42:48 UTC</createdTime>
+<generatorID>1E2E2695-0703-F98F-EC92-1697CB64E52A</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<referedAttribute>41EA795B-4BC6-2352-966B-37735A56F089</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F0E2EB0-5661-8C39-A148-DBB96542D9CB" name="Pedido_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:11:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D83EE72-8DA6-BB70-E6D6-F91E8E888A89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

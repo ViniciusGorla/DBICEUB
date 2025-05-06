@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D90A4A3C-00AA-FBB9-356C-12A70DDF9681" name="ItensDoPedido">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>47169C8F-BF5E-3628-54DF-440671A22984</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="itemProduto" id="BE3FB6F0-313F-E131-7E4E-8F7C754E263E">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>CA451623-9D37-EC37-BF3D-896C9FCC8F04</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoProduto" id="EEAE3C25-2E5E-1FA8-AA4A-41B5AF67B474">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>5D89B51F-F411-5002-5284-0132EA0829E4</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="271FA48A-7942-96BC-5978-7356402CBAA4">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>40C17038-C593-25E0-1078-A6EAC3103825</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoProduto" id="7FD79DD4-0A75-A4EE-3263-AB36790F341B">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>7A652210-47B2-2CAD-5E1E-5F7CA9FCCB76</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalProdutos" id="5541E683-E759-F5AA-9FC6-B1542F34C0B9">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>8C833FC1-907F-B282-EED8-14182C85CA81</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificaoDoPedido" id="0AF40439-CBC6-AFB7-9886-0658E76CA0D5">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>89A3C137-4939-0A29-E977-6F961039D754</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66179F25-096D-DEC4-A1AE-E68C57B17654" referredColumn="93C47FD6-B66B-F283-08EC-7E7FA6EA228D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F43517A-23B7-111D-6E60-B494F4EBDBCA" name="ItensDoPedido_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>25209974-BAAC-39BF-BE27-EBFE3E4ACC37</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE3FB6F0-313F-E131-7E4E-8F7C754E263E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9731BAE3-60C3-A478-5A0E-640F5084FC4F" name="Relation_5">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>36706844-F6BF-E2F4-7A5B-0BDBE2AB170E</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF40439-CBC6-AFB7-9886-0658E76CA0D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

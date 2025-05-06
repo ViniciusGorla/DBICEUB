@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A1CD26B-CBCB-534E-CC76-41BE33CC5179" name="Endereco">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>617A518D-EDFC-9E43-F3C5-8D2975CF4622</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cepCliente" id="BF09131B-70CB-0AFB-A5E4-B6661BC64958">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>0274DD91-3022-5987-B933-F4C592B99634</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="D1A6783E-F2FB-79D0-C3F8-33EB98533367">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>0106549B-F765-F00D-7167-08A6481F438F</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="4513F82C-FA04-4525-7806-3148A8710A5D">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>8FAF5C0F-50B8-A18F-5007-A4E9F18DBC04</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="F9BED89C-E98A-17D3-AE0E-814CDEB10C93">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>7C293DEB-9171-895D-B12B-C69A600E0383</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="A3E9903C-E66A-6DDD-39FF-57056225C4B4">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>FB2BC0D0-D000-13CD-F745-A77A814B61CA</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco_ID" id="3FBA39B2-4B49-C527-022E-CCD67ECAE21C">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD583E2E-F098-AC87-A71F-1043DF0E358C" name="Endereco_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="3FBA39B2-4B49-C527-022E-CCD67ECAE21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

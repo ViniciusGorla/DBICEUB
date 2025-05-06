@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1C9515A-B5A5-AB2D-296A-D2B632B0F6E7" name="Pedido">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>47A2E90B-8529-4005-2306-6C6647887626</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="statusDoPedido" id="1D158A06-9461-CCFF-4D89-A134FE969A3C">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>DADBEEF5-C403-8F3F-94A7-CB0F0BCFA793</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="462589F9-016A-568F-2145-680FA6132B9C">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>8D3A9805-8326-898E-750B-94A2EEF8CAB7</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificaoDoPedido" id="93C47FD6-B66B-F283-08EC-7E7FA6EA228D">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>2D83EE72-8DA6-BB70-E6D6-F91E8E888A89</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula1" id="21C0ACA4-6634-EE81-7B1C-647F9847DBC4">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:34:14 UTC</createdTime>
+<generatorID>34CBAADD-E02A-3E1E-2DC8-6A6C3C91CFAF</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7005929D-48D8-D922-143C-F39EE9550A4C" referredColumn="C09A85A3-F5F5-7141-0633-E545890F26C1"/>
+</associations>
+</Column>
+<Column name="cpfCliente2" id="04E1C3B1-78F3-CAC2-0361-9CF94FA2C45A">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:43:11 UTC</createdTime>
+<generatorID>58B3F2E7-871A-1CB5-90DE-04EF91003798</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C81025E-7678-9FCE-54F2-360E95177D79" referredColumn="4E666FF6-F69B-C6A1-D585-965B02803A7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91AE57B2-A39C-6FCB-6491-23E60E4C0AEB" name="Pedido_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>9F0E2EB0-5661-8C39-A148-DBB96542D9CB</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93C47FD6-B66B-F283-08EC-7E7FA6EA228D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DE474F6-9988-5FE2-E978-E85675D248F9" name="Relation_7v1">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:34:14 UTC</createdTime>
+<generatorID>849F14FD-DC1B-9CC5-5369-51B08DE805EA</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C0ACA4-6634-EE81-7B1C-647F9847DBC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82FD7373-9889-5C31-4040-1459300FFF90" name="Relation_14">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:43:11 UTC</createdTime>
+<generatorID>1E2E2695-0703-F98F-EC92-1697CB64E52A</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04E1C3B1-78F3-CAC2-0361-9CF94FA2C45A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

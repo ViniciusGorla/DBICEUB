@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5413E58-8F77-AE85-5B72-4AFAEB534B9A" name="TelefoneCliente">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>D3FD84F2-CA61-346A-8ABD-CC11BE859FEA</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone" id="A6FF78D3-4D80-625F-196E-2BEFC27547DB">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<generatorID>36BC4528-F5A4-3CD4-9044-1ECCC650F343</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="B0705D75-BA2C-E02C-39C5-A6332E19FD57">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:41:22 UTC</createdTime>
+<generatorID>7B189CA9-7F26-96DF-51C2-27BF0396B58D</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CC1213C-5964-60F1-C72E-BAF409B96699" referredColumn="4E666FF6-F69B-C6A1-D585-965B02803A7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B4D789B-BA19-1932-CBE4-F0280BCFC2AE" name="Relation_10">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:41:22 UTC</createdTime>
+<generatorID>DC560220-9CFA-7928-AFEE-B914C331D156</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0705D75-BA2C-E02C-39C5-A6332E19FD57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

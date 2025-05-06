@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66DC1F2F-5E9C-C8E8-EE5D-D28C9E382C93" name="Cliente">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:17:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeCliente" id="FB31F34B-4C3A-8C77-7E4D-8291B9307CD3">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:17:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="41EA795B-4BC6-2352-966B-37735A56F089">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:18:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6E05090-C490-545E-69DC-4C410D176A91" name="Cliente_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:06:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41EA795B-4BC6-2352-966B-37735A56F089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

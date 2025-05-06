@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="47169C8F-BF5E-3628-54DF-440671A22984" name="ItensDoPedido">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:39:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="itemProduto" id="CA451623-9D37-EC37-BF3D-896C9FCC8F04">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:39:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoProduto" id="5D89B51F-F411-5002-5284-0132EA0829E4">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:43:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="40C17038-C593-25E0-1078-A6EAC3103825">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:45:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoProduto" id="7A652210-47B2-2CAD-5E1E-5F7CA9FCCB76">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:45:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalProdutos" id="8C833FC1-907F-B282-EED8-14182C85CA81">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-05 23:49:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificaoDoPedido" id="89A3C137-4939-0A29-E977-6F961039D754">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:13:30 UTC</createdTime>
+<generatorID>36706844-F6BF-E2F4-7A5B-0BDBE2AB170E</generatorID>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="true"/>
+</engineerTo>
+<referedAttribute>2D83EE72-8DA6-BB70-E6D6-F91E8E888A89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25209974-BAAC-39BF-BE27-EBFE3E4ACC37" name="ItensDoPedido_PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-06 00:10:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9E9382F1-0FC2-DC9D-2308-E0BC5B10418C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA451623-9D37-EC37-BF3D-896C9FCC8F04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
