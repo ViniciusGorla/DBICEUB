@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92A0070F-FA86-839E-C65B-89C4B7F56DDD" name="Titular">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:11:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="5327A373-AFCD-85DB-C861-C8F614FB7F25">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:18:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_Titular" id="9A288276-A092-DE3B-B1C3-3459E184A962">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:18:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_Titular" id="9194E63B-424D-D8DE-34DE-31C53683D42A">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:18:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_Nascimento_Titular" id="D6BCCE29-A4DA-0850-6659-6A66C3AFBCDC">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:25:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfdoendereco" id="F7254F3D-8641-31C3-50CC-09B1BA47257F">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-20 00:14:42 UTC</createdTime>
+<generatorID>0D7CE064-55ED-460F-46BF-FE411872D754</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<referedAttribute>111368EA-FD3B-4FEE-00D4-D93E0F59A791</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C1BF684-0B06-E24D-07F3-E4EAA12F2F2C" name="associado PK">
+<createdBy>vinicius.gorla</createdBy>
+<createdTime>2025-05-19 23:23:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="72696D2F-C553-6EB1-C661-22BC2D1C53B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5327A373-AFCD-85DB-C861-C8F614FB7F25</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
